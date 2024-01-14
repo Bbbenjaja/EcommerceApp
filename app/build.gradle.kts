@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("androidx.navigation.safeargs.kotlin")
     id("dagger.hilt.android.plugin")
     id("kotlin-kapt")
 }
@@ -44,6 +45,7 @@ android {
 
 dependencies {
 
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
     val navVersion = "2.7.1"
     val retrofitVersion = "2.9.0"
     val hiltVersion = "2.44"
@@ -52,7 +54,11 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    //Unit test
     testImplementation("junit:junit:4.13.2")
+    testImplementation("io.kotlintest:kotlintest-runner-junit:3.4.2")
+    testImplementation("io.mockk:mockk:1.12.3")
+
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
@@ -76,5 +82,15 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:$hiltVersion")
     //Gson
     implementation("com.google.code.gson:gson:2.10.1")
+    //Picasso
+    implementation("com.squareup.picasso:picasso:2.8")
+    //Room
+    implementation("androidx.room:room-ktx:2.5.2")
+    kapt("androidx.room:room-compiler:2.5.2")
+
+    //Sweet Alert dialogs
+    implementation("com.github.f0ris.sweetalert:library:1.5.6")
+    //Photo view for image zoom
+    implementation("com.github.chrisbanes:PhotoView:2.3.0")
 
 }

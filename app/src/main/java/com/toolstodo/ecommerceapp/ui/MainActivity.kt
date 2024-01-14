@@ -6,13 +6,12 @@ import androidx.navigation.NavController
 import androidx.navigation.NavGraph
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
-import androidx.navigation.ui.setupWithNavController
 import com.toolstodo.ecommerceapp.R
 import com.toolstodo.ecommerceapp.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity() {
+class MainActivity() : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController
@@ -54,7 +53,6 @@ class MainActivity : AppCompatActivity() {
                         navController.popBackStack(navGraph.startDestinationId, false)
                     }
                 }
-
             }
         }
     }

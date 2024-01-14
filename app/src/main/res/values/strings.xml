@@ -3,9 +3,45 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="app_name">EcommerceApp</string>
 
+    <!-- Labels -->
     <string name="home_label">Inicio</string>
     <string name="cart_label">Carrito</string>
     <string name="categories_label">Categorias</string>
     <string name="profile_label">Perfil</string>
+
+    <!-- Home strings -->
+    <string name="search_products">Buscar productos</string>
+    <string name="offers">Ofertas</string>
+    <string name="speed_offers">Ofertas rápidas</string>
+    <string name="no_offers">Sin ofertas</string>
+    <string name="products">Productos</string>
+
+    <string name="product_label">Producto</string>
+    <string name="rate_label">5</string>
+    <string name="price_label">Precio</string>
+    <string name="desc_label">Descripción</string>
+    <string name="dollar_sign_label">$</string>
+    <string name="minus_sign_label">-</string>
+    <string name="percent_sign_label">%</string>
+    <string name="count_label">1</string>
+
+    <!-- ProductFragment strings -->
+    <string name="similar_products_label">Productos similares</string>
+    <string name="favorite_label">Favoritos</string>
+    <string name="buy_label">Comprar</string>
+    <string name="total">Total</string>
+    <string name="stock">Disponibles</string>
+
+    <!-- Sweet alerts dialogs strings -->
+    <string name="are_you_sure_to_add_this_product_to_cart">¿Seguro que quieres agregar este producto al carrito?</string>
+    <string name="wait">Espera!</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="added">Agregado</string>
+    <string name="ok">Ok</string>
+    <string name="go_to_cart">Ir al carrito</string>
+    <string name="add">Agregar</string>
+    <string name="error">Error</string>
+    <string name="error_adding_to_cart_check_stock">Error añadiendo al carrito, consulta el stock</string>
 
 </resources>
