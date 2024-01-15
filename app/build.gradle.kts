@@ -56,8 +56,8 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     //Unit test
     testImplementation("junit:junit:4.13.2")
-    testImplementation("io.kotlintest:kotlintest-runner-junit:3.4.2")
-    testImplementation("io.mockk:mockk:1.12.3")
+    testImplementation ("io.kotlintest:kotlintest-runner-junit5:3.4.2")
+    testImplementation ("io.mockk:mockk:1.12.3")
 
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

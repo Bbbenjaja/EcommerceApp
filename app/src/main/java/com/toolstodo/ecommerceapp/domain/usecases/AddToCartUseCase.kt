@@ -40,7 +40,7 @@ class AddToCartUseCase @Inject constructor(
 
             return true
         } catch (e: Exception) {
-            Log.d("Error adding to cart", e.message.toString())
+            //Log.d("Error adding to cart", e.message.toString())
             return false
         }
 
