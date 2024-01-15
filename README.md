@@ -32,5 +32,7 @@ La navegación sucede de la siguiente manera:
 - Desde el detalle del producto se puede añadir a favoritos o añadir al carrito, si se agregó con éxito al carrito muestra un mensaje para ir al carrito que es otro grafo de navegación principal.
 ___
 ### Extras
+- Los productos que aparecen en la ventana inicio y los que aparecen en el detalle del producto (productos similares) mostrarán mas o menos productos por columna dependiendo del tamaño de la pantalla del dispositivo o si este se encuentra en portrait o landscape.
+- En los detalles del producto, se pueden ver todas las imagenes de este, deslizando a la derecha, también se puede realizar zoom a cada imagen.
 - La forma en la que se almacenan favoritos y productos en el carrito sucede de manera local, debido a que no se cuenta con un backend real manipulable. Todo con persistencia de datos con Room.
 - Si la conexión a la API llega a fallar y no se pueden obtener los productos, estos también son almacenados de manera local cada vez que se ejecuta la app, eliminando los anteriores, por lo que el usuario puede usar la app para la mayoría de sus funciones de manera offline.
