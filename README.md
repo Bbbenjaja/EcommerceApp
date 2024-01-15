@@ -19,10 +19,10 @@ ___
 
 ### Ventanas implementadas (de momento) :iphone: :left_right_arrow: :iphone: :heavy_check_mark:
 
- - [x] Inicio :heavy_check_mark: :arrow_right: [ir a ver detalles](https://github.com/Bbbenjaja/EcommerceApp/tree/feature/home)
- - [ ] Categorías :x:
- - [ ] Carrito :x:
- - [ ] Perfil :x:
+ - :heavy_check_mark: Inicio :arrow_right: [ir a ver detalles](https://github.com/Bbbenjaja/EcommerceApp/tree/feature/home)
+ - :x: Categorías 
+ - :x: Carrito 
+ - :x: Perfil 
 
 ### Ventanas principales :iphone:
 [Inicio](https://github.com/Bbbenjaja/EcommerceApp/tree/feature/home)
