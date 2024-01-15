@@ -17,16 +17,17 @@ ___
 - Manejo de corroutines y manejo del ciclo de vida de fragments.
 - La cantidad de productos por columna dentro del RecyclerView se adaptan dependiendo del tamaño de la pantalla.
 
-### Ventanas implementadas :iphone: :left_right_arrow: :iphone: :heavy_check_mark:
+### Ventanas implementadas (de momento) :iphone: :left_right_arrow: :iphone: :heavy_check_mark:
 
- - [x] Inicio :arrow_right: [ir a ver detalles](https://github.com/Bbbenjaja/EcommerceApp/tree/feature/home)
- - [ ] Categorías
- - [ ] Carrito
- - [ ] Perfil
+ - [x] Inicio :heavy_check_mark: :arrow_right: [ir a ver detalles](https://github.com/Bbbenjaja/EcommerceApp/tree/feature/home)
+ - [ ] Categorías :x:
+ - [ ] Carrito :x:
+ - [ ] Perfil :x:
 
 ### Ventanas principales :iphone:
 [Inicio](https://github.com/Bbbenjaja/EcommerceApp/tree/feature/home)
-![Home](https://github.com/Bbbenjaja/EcommerceApp/blob/feature/home/homeScreens/home.jpg?raw=true =300x)
+
+<img src="https://github.com/Bbbenjaja/EcommerceApp/blob/feature/home/homeScreens/home.jpg?raw=true" alt="Home" height="900"/>
 
 ### Hecho en 🛠
  - Kotlin.
