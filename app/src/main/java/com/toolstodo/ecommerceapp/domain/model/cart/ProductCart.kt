@@ -6,7 +6,7 @@ data class ProductCart(
     val id: Int,
     val price: Double,
     val discountPercentage: Double,
-    var quantity: Int,
+    var quantity: Int = 1,
     val total: Double = quantity * price,
     val discountedPrice: Double = (total - (total * discountPercentage * 0.01f)),
     val thumbnail: String,

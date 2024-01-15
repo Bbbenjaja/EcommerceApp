@@ -7,7 +7,7 @@ import com.toolstodo.ecommerceapp.domain.model.product.ProductResponse
 
 interface StoreRepository {
 
-    suspend fun getProductsFromNetwork(skip: Int, limit: Int): ProductResponseModel
+    suspend fun getProductsFromNetwork(skip: Int = 0, limit: Int = 0): ProductResponseModel
 
     suspend fun getProductsByCategoryFromNetwork(category: String): ProductResponseModel
 

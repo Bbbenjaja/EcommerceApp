@@ -1,5 +1,6 @@
 package com.toolstodo.ecommerceapp.data.model.products
 
+import com.toolstodo.ecommerceapp.data.local.entities.cart.ProductCartEntity
 import com.toolstodo.ecommerceapp.data.local.entities.product.ProductEntity
 import com.toolstodo.ecommerceapp.domain.model.product.Product
 
@@ -45,4 +46,12 @@ fun ProductModel.toRoomDB(favList: List<ProductEntity>) = ProductEntity(
     thumbnail = thumbnail,
     title = title,
     isFavorite = favList.firstOrNull{ productEntity -> productEntity.id == id } != null
+)
+
+fun ProductModel.toProductCartEntity() = ProductCartEntity(
+    id = id,
+    price = price.toDouble(),
+    discountPercentage = discountPercentage,
+    thumbnail = thumbnail,
+    title = title
 )

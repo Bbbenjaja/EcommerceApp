@@ -77,7 +77,7 @@ class HomeFragment : Fragment() {
                 )
         }
 
-        viewModel.getProducts(0, 100)
+        viewModel.getProducts(0, 0)
     }
 
     private fun initListeners() {

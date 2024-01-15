@@ -11,7 +11,7 @@ data class ProductCartEntity(
     @ColumnInfo(name = "id") val id: Int,
     @ColumnInfo(name = "price") val price: Double,
     @ColumnInfo(name = "discountPercentage") val discountPercentage: Double,
-    @ColumnInfo(name = "quantity") val quantity: Int,
+    @ColumnInfo(name = "quantity") val quantity: Int = 1,
     @ColumnInfo(name = "total") val total: Double = quantity * price,
     @ColumnInfo(name = "discountedPrice") val discountedPrice: Double = (total - (total * discountPercentage * 0.01f)),
     @ColumnInfo(name = "thumbnail") val thumbnail: String,

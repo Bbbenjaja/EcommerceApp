@@ -1,6 +1,7 @@
 package com.toolstodo.ecommerceapp.domain.model.product
 
 import com.toolstodo.ecommerceapp.data.local.entities.product.ProductEntity
+import com.toolstodo.ecommerceapp.domain.model.cart.ProductCart
 import java.io.Serializable
 
 data class Product(
@@ -31,4 +32,13 @@ fun Product.toRoomDB() = ProductEntity(
     thumbnail = thumbnail,
     title = title,
     isFavorite = isFavorite
+)
+
+fun Product.toProductCart() = ProductCart(
+    id = id,
+    title = title,
+    thumbnail = thumbnail,
+    discountPercentage = discountPercentage,
+    price = price.toDouble(),
+
 )
